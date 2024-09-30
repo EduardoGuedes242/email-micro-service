@@ -17,7 +17,7 @@ public class EmailController {
   }
 
   @GetMapping("/ping")
-  public String teste() {
+  public String ping() {
     return "pong";
   }
 
